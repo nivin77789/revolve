@@ -17,6 +17,10 @@ function App() {
           </div>
         </div>
         <div className="lang">
+          <img
+            src="https://cdn.countryflags.com/thumbs/andorra/flag-round-250.png"
+            alt="flag"
+          ></img>
           <select name="countries" id="countries">
             <option
               value="ad"
@@ -83,8 +87,19 @@ function App() {
               Netherlands Antilles
             </option>
           </select>
+          <div className="noti">
+            <span class="material-symbols-outlined">notifications</span>
+          </div>
         </div>
-        <div className="profile"></div>
+        <div className="profile">
+          <div class="material">
+            <span class="material-symbols-outlined">person</span>
+          </div>
+          <div className="usn">
+            <h3>Username</h3>
+            <p>Admin</p>
+          </div>
+        </div>
       </div>
       <div className="sub">
         <div className="nav">Dashboard</div>

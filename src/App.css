@@ -4,8 +4,53 @@ body {
 .App {
   background-color: #fafbfc;
 }
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile .material {
+  margin-right: 10px;
+  border-radius: 7px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px;
+  border-style: solid;
+  border-color: #5d5fef;
+}
+.material .material-symbols-outlined {
+  color: #5d5fef;
+}
+.usn {
+  line-height: 1px;
+}
 .material-symbols-outlined {
-  color: blue;
+  color: #5d5fef;
+}
+.lang {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lang img {
+  width: 18px;
+  margin: 5px;
+}
+.noti {
+  margin-left: 30px;
+  background-color: rgba(255, 231, 190, 0.397);
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noti .material-symbols-outlined {
+  color: rgb(247, 203, 94);
 }
 .lang select {
   width: 100px;
