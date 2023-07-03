@@ -4,6 +4,126 @@ body {
 .App {
   background-color: #fafbfc;
 }
+.nav {
+  display: grid;
+  justify-content: space-around;
+  line-height: 3px;
+  padding-top: 20px;
+}
+.dash {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: grey;
+}
+.set:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.sales:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.dark:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.pay:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.order:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.cust:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.invent:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.top:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.fore:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.bord:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.lead:hover {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.bord {
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.sign {
+  display: flex;
+  align-items: center;
+  border: 2px solid #5d5fef;
+  border-radius: 8px;
+  height: 40px;
+  width: 180px;
+}
+.sign h1 {
+  color: #5d5fef;
+  font-size: medium;
+  font-weight: 400;
+}
+.sign .material-symbols-outlined {
+  padding-right: 20px;
+  color: #5d5fef;
+}
+.dash .material-symbols-outlined {
+  padding-right: 20px;
+}
+.dash h1 {
+  font-size: medium;
+  font-weight: 400;
+}
 .profile {
   display: flex;
   align-items: center;
@@ -27,7 +147,7 @@ body {
 .usn {
   line-height: 1px;
 }
-.material-symbols-outlined {
+.logo .material-symbols-outlined {
   color: #5d5fef;
 }
 .lang {
@@ -90,7 +210,7 @@ body {
 .nav {
   width: 300px;
   background-color: #ffff;
-  height: 950px;
+  height: 865px;
 }
 .main {
   flex: 5px;
