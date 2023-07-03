@@ -9,7 +9,9 @@ function App() {
           <h1>Revolve</h1>
         </div>
         <div className="title">
-          <h1>Hi Nivin,</h1>
+          <h1>
+            <span>Hi</span> Nivin,
+          </h1>
         </div>
         <div className="search">
           <div className="input">

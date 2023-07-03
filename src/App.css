@@ -4,6 +4,21 @@ body {
 .App {
   background-color: #fafbfc;
 }
+.logo h1 {
+  font-size: 27px;
+  font-weight: 600;
+}
+.title {
+  padding-left: 20px;
+}
+.title h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.title span {
+  font-size: 35px;
+  font-weight: 300;
+}
 .nav {
   display: grid;
   justify-content: space-around;
