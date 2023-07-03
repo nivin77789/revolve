@@ -1,10 +1,11 @@
 import "./App.css";
+import "./images/logo.png";
 function App() {
   return (
     <div className="App">
       <div className="taskbar">
         <div className="logo">
-          <img src="./logo.png" alt="Revolve"></img>
+          <img src="logo.png" alt="Revolve"></img>
           <h1>Revolve</h1>
         </div>
         <div className="title">

@@ -17,6 +17,7 @@ body {
   color: grey;
 }
 .set:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -24,6 +25,7 @@ body {
   width: 180px;
 }
 .sales:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -31,6 +33,7 @@ body {
   width: 180px;
 }
 .dark:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -38,6 +41,7 @@ body {
   width: 180px;
 }
 .pay:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -45,6 +49,7 @@ body {
   width: 180px;
 }
 .order:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -52,6 +57,7 @@ body {
   width: 180px;
 }
 .cust:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -59,6 +65,7 @@ body {
   width: 180px;
 }
 .invent:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -66,6 +73,7 @@ body {
   width: 180px;
 }
 .top:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -73,6 +81,7 @@ body {
   width: 180px;
 }
 .fore:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -80,6 +89,7 @@ body {
   width: 180px;
 }
 .bord:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -87,6 +97,7 @@ body {
   width: 180px;
 }
 .lead:hover {
+  margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
   color: #fafbfc;
@@ -101,10 +112,9 @@ body {
   width: 180px;
 }
 .sign {
+  padding-left: 10px;
   display: flex;
   align-items: center;
-  border: 2px solid #5d5fef;
-  border-radius: 8px;
   height: 40px;
   width: 180px;
 }
