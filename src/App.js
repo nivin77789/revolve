@@ -5,7 +5,11 @@ function App() {
     <div className="App">
       <div className="taskbar">
         <div className="logo">
-          <img src="logo.png" alt="Revolve"></img>
+          <img
+            className="logo-img"
+            src={process.env.PUBLIC_URL + "/logo192.png"}
+            alt="revolve"
+          />
           <h1>Revolve</h1>
         </div>
         <div className="title">
