@@ -8,12 +8,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 28px;
 }
 .logo-img {
   width: 45px;
   height: 45px;
   padding-right: 20px;
-  margin-right: 20px;
 }
 .usn h3 {
   font-size: small;
