@@ -24,7 +24,14 @@ function Main() {
             </div>
           </div>
           <div className="sale-down">
-            <h1>Today's Sales</h1>
+            <div>
+              <h1>Today's Sales</h1>
+              <p>Sales Summery</p>
+            </div>
+            <div className="exp-button">
+              <span class="material-symbols-outlined">ios_share</span>
+              <p>Export</p>
+            </div>
           </div>
         </div>
         <div className="insight">

@@ -10,6 +10,25 @@ body {
 .imp-button p {
   font-size: 12px;
 }
+.exp-button p {
+  font-size: 12px;
+  padding-right: 5px;
+}
+.sale-down p {
+  font-size: 12px;
+  padding-left: 15px;
+}
+.exp-button {
+  color: #727272;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(114, 114, 114, 0.516);
+  height: 30px;
+  width: 80px;
+}
 .imp-button {
   color: #727272;
   display: flex;
@@ -90,6 +109,8 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 .sale-down {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   border-radius: 10px;
   padding-top: 5px;
