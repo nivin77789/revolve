@@ -9,9 +9,6 @@ function Main() {
           <div className="sale-top">
             <div className="sale-left">
               <h1>Dashboard overview</h1>
-              <button type="button" class="btn btn-default btn-sm">
-                <span class="glyphicon glyphicon-print"></span> Print
-              </button>
             </div>
             <div className="sale-right">
               <h1>Add your Data</h1>
