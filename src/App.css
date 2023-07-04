@@ -28,7 +28,7 @@ body {
   font-weight: 600;
 }
 .title {
-  padding-left: 20px;
+  padding-left: 40px;
 }
 .title h1 {
   font-size: 35px;
@@ -49,6 +49,7 @@ body {
   align-items: center;
   padding-left: 10px;
   color: grey;
+  cursor: pointer;
 }
 .set:hover {
   margin-top: 40px;
