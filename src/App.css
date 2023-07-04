@@ -4,10 +4,41 @@ body {
 .App {
   background-color: #fafbfc;
 }
+.mide {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  height: 270px;
+  margin: 10px;
+}
+.mid-left {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.mid-center {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mid-right {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
 .sale-top {
   height: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.sale-down {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 210px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
 }
 .sale-left {
   background-color: white;
@@ -30,7 +61,7 @@ body {
 .tope {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  padding: 10px;
+  margin: 10px;
 }
 .logo {
   display: flex;
