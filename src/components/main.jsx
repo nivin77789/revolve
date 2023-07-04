@@ -41,7 +41,7 @@ function Main() {
           <h1>Sales by Region</h1>
         </div>
         <div className="bot-right">
-          <h1></h1>
+          <h1>Loss Graph</h1>
         </div>
       </div>
     </div>
