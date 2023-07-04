@@ -1,5 +1,4 @@
 import "./App.css";
-import "./images/logo.png";
 function App() {
   return (
     <div className="App">
