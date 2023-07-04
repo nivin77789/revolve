@@ -33,10 +33,10 @@ body {
   width: 80px;
 }
 .main h1 {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 730;
   padding-left: 15px;
-  color: #312e4d;
+  color: #312e4dd4;
 }
 .bot {
   display: grid;
