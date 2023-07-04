@@ -9,6 +9,10 @@ function Main() {
           <div className="sale-top">
             <div className="sale-left">
               <h1>Dashboard overview</h1>
+              <div className="print-button">
+                <span class="material-symbols-outlined">print</span>{" "}
+                <p>Print</p>
+              </div>
             </div>
             <div className="sale-right">
               <h1>Add your Data</h1>
