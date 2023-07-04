@@ -4,6 +4,34 @@ body {
 .App {
   background-color: #fafbfc;
 }
+.sale-top {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sale-left {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.sale-right {
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.insight {
+  height: 270px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.tope {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  padding: 10px;
+}
 .logo {
   display: flex;
   align-items: center;
@@ -29,6 +57,9 @@ body {
 }
 .title {
   padding-left: 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 .title h1 {
   font-size: 35px;
