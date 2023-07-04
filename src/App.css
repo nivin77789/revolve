@@ -6,8 +6,9 @@ body {
 }
 .main h1 {
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 750;
   padding-left: 15px;
+  color: #05004e;
 }
 .bot {
   display: grid;
