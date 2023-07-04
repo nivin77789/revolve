@@ -16,6 +16,11 @@ function Main() {
             </div>
             <div className="sale-right">
               <h1>Add your Data</h1>
+              <p>(.csv file)</p>
+              <div className="imp-button">
+                <span class="material-symbols-outlined">system_update_alt</span>
+                <p>Import</p>
+              </div>
             </div>
           </div>
           <div className="sale-down">
