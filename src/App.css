@@ -17,9 +17,11 @@ body {
 }
 .usn h3 {
   font-size: small;
+  font-weight: 500;
 }
 .usn p {
-  font-size: smaller;
+  font-size: 12px;
+  font-weight: 300;
 }
 .logo h1 {
   font-size: 27px;
@@ -226,12 +228,18 @@ body {
   align-items: center;
   padding-left: 20px;
 }
+input {
+  outline: none;
+}
 .inp {
   margin-left: 10px;
   border: none;
   background-color: rgba(243, 243, 243, 0.79);
   width: 300px;
   height: 40px;
+}
+.input .material-symbols-outlined {
+  color: #5d5fef;
 }
 .logo {
   display: flex;
