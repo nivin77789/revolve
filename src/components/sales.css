@@ -97,7 +97,6 @@
   justify-content: space-between;
 }
 .exp-button p {
-  cursor: pointer;
   font-size: 12px;
   padding-right: 5px;
 }
@@ -106,6 +105,7 @@
   padding-left: 15px;
 }
 .exp-button {
+  cursor: pointer;
   color: #727272;
   display: flex;
   align-items: center;
