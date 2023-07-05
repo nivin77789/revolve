@@ -37,7 +37,7 @@ function Main() {
             <div className="sale-d-bot">
               <div className="box box1">
                 <div className="round1">
-                  <span class="material-symbols-outlined">lab_profile</span>{" "}
+                  <span class="material-symbols-outlined">lab_profile</span>
                 </div>
                 <h4>$1k</h4>
                 <h2>Total Sales</h2>
@@ -45,7 +45,7 @@ function Main() {
               </div>
               <div className="box box2">
                 <div className="round2">
-                  <span class="material-symbols-outlined">lab_profile</span>{" "}
+                  <span class="material-symbols-outlined">feed</span>
                 </div>
                 <h4>$1k</h4>
                 <h2>Total Sales</h2>
@@ -53,7 +53,7 @@ function Main() {
               </div>
               <div className="box box3">
                 <div className="round3">
-                  <span class="material-symbols-outlined">lab_profile</span>{" "}
+                  <span class="material-symbols-outlined">inventory_2</span>
                 </div>
                 <h4>$1k</h4>
                 <h2>Total Sales</h2>
@@ -61,7 +61,7 @@ function Main() {
               </div>
               <div className="box box4">
                 <div className="round4">
-                  <span class="material-symbols-outlined">lab_profile</span>{" "}
+                  <span class="material-symbols-outlined">person_add</span>
                 </div>
                 <h4>$1k</h4>
                 <h2>Total Sales</h2>
