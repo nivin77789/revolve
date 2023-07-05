@@ -13,6 +13,7 @@ body {
 }
 
 .imp-button {
+  cursor: pointer;
   color: #727272;
   display: flex;
   align-items: center;
@@ -26,6 +27,7 @@ body {
   width: 80px;
 }
 .print-button {
+  cursor: pointer;
   color: #727272;
   display: flex;
   align-items: center;

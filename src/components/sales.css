@@ -97,6 +97,7 @@
   justify-content: space-between;
 }
 .exp-button p {
+  cursor: pointer;
   font-size: 12px;
   padding-right: 5px;
 }
