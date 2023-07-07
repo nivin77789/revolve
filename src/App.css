@@ -169,85 +169,50 @@ body {
   padding-top: 20px;
 }
 .dash {
+  border: none;
+  background-color: white;
   display: flex;
   align-items: center;
   padding-left: 10px;
   color: grey;
   cursor: pointer;
 }
+
 .set:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .sales:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .dark:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .pay:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .order:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .cust:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .invent:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .top:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .fore:hover {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
+  color: #5d5fef;
 }
 .bord:hover {
+  color: #5d5fef;
+}
+.lead:hover {
+  color: #5d5fef;
+}
+
+.set:focus {
   margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
@@ -255,7 +220,79 @@ body {
   height: 40px;
   width: 180px;
 }
-.lead:hover {
+.sales:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.dark:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.pay:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.order:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.cust:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.invent:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.top:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.fore:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.bord:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 180px;
+}
+.lead:focus {
   margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;

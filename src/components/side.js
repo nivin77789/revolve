@@ -8,10 +8,10 @@ function Side() {
         <span class="material-symbols-outlined">dashboard</span>
         <h1>Dashboard</h1>
       </div>
-      <div className="dash lead">
+      <button className="dash lead">
         <span class="material-symbols-outlined">leaderboard</span>
         <h1>Leaderboard</h1>
-      </div>
+      </button>
       <div className="dash fore">
         <span class="material-symbols-outlined">storm</span>
         <h1>Forecast</h1>
