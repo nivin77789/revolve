@@ -218,7 +218,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .sales:focus {
   margin-top: 40px;
@@ -226,7 +226,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .dark:focus {
   margin-top: 40px;
@@ -234,7 +234,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .pay:focus {
   margin-top: 40px;
@@ -242,7 +242,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .order:focus {
   margin-top: 40px;
@@ -250,7 +250,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .cust:focus {
   margin-top: 40px;
@@ -258,7 +258,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .invent:focus {
   margin-top: 40px;
@@ -266,7 +266,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .top:focus {
   margin-top: 40px;
@@ -274,7 +274,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .fore:focus {
   margin-top: 40px;
@@ -282,7 +282,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .bord:focus {
   margin-top: 40px;
@@ -290,7 +290,7 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .lead:focus {
   margin-top: 40px;
@@ -298,21 +298,15 @@ body {
   background-color: #5d5fef;
   color: #fafbfc;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
-.bord {
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 180px;
-}
+
 .sign {
   padding-left: 10px;
   display: flex;
   align-items: center;
   height: 40px;
-  width: 180px;
+  width: 190px;
 }
 .sign h1 {
   color: #5d5fef;

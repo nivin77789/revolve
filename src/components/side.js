@@ -4,10 +4,10 @@ import "../App.css";
 function Side() {
   return (
     <div className="nav">
-      <div className="dash bord">
+      <button className="dash bord">
         <span class="material-symbols-outlined">dashboard</span>
         <h1>Dashboard</h1>
-      </div>
+      </button>
       <button className="dash lead">
         <span class="material-symbols-outlined">leaderboard</span>
         <h1>Leaderboard</h1>
