@@ -302,17 +302,26 @@ body {
 }
 
 .sign {
+  border: 2px solid #5d5fef;
+  background-color: white;
   padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
   display: flex;
   align-items: center;
   height: 40px;
   width: 190px;
-}
-.sign h1 {
   color: #5d5fef;
-  font-size: medium;
-  font-weight: 400;
+  font-size: 8px;
 }
+.sign:active {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+
+  color: white;
+}
+
 .sign .material-symbols-outlined {
   padding-right: 20px;
   color: #5d5fef;
