@@ -309,6 +309,7 @@ body {
   margin-top: 50px;
   display: flex;
   align-items: center;
+  cursor: pointer;
   height: 40px;
   width: 190px;
   color: #5d5fef;
@@ -318,7 +319,6 @@ body {
   margin-top: 40px;
   border-radius: 8px;
   background-color: #5d5fef;
-
   color: white;
 }
 
