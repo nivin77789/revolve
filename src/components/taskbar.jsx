@@ -14,7 +14,7 @@ function Taskbar() {
       </div>
       <div className="title">
         <h1>
-          <span>Hi</span> Nivin,
+          <span>Hi</span> Username,
         </h1>
       </div>
       <div className="search">
