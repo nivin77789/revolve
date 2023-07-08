@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import "./taskbar.css";
 function Taskbar() {
   return (
     <div className="taskbar">
