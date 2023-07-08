@@ -1,0 +1,172 @@
+.dash {
+  border: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: grey;
+  cursor: pointer;
+}
+
+.set:hover {
+  color: #5d5fef;
+}
+.sales:hover {
+  color: #5d5fef;
+}
+.dark:hover {
+  color: #5d5fef;
+}
+.pay:hover {
+  color: #5d5fef;
+}
+.order:hover {
+  color: #5d5fef;
+}
+.cust:hover {
+  color: #5d5fef;
+}
+.invent:hover {
+  color: #5d5fef;
+}
+.top:hover {
+  color: #5d5fef;
+}
+.fore:hover {
+  color: #5d5fef;
+}
+.bord:hover {
+  color: #5d5fef;
+}
+.lead:hover {
+  color: #5d5fef;
+}
+
+.set:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.sales:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.dark:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.pay:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.order:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.cust:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.invent:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.top:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.fore:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.bord:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+.lead:focus {
+  margin-top: 40px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: #fafbfc;
+  height: 40px;
+  width: 190px;
+}
+
+.sign {
+  border: 2px solid #5d5fef;
+  background-color: white;
+  padding-left: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 40px;
+  width: 190px;
+  color: #5d5fef;
+  font-size: 8px;
+}
+.sign:active {
+  margin-top: 50px;
+  border-radius: 8px;
+  background-color: #5d5fef;
+  color: white;
+}
+
+.sign .material-symbols-outlined {
+  padding-right: 20px;
+  color: #5d5fef;
+}
+.dash .material-symbols-outlined {
+  padding-right: 20px;
+}
+.dash h1 {
+  font-size: medium;
+  font-weight: 400;
+}
+
+.nav {
+  display: grid;
+  justify-content: space-around;
+  line-height: 3px;
+  padding-top: 20px;
+}

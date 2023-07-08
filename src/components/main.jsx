@@ -20,6 +20,7 @@ function Main() {
               <p>(.csv file)</p>
               <div className="imp-button">
                 <span class="material-symbols-outlined">download</span>
+
                 <p>Import</p>
               </div>
             </div>

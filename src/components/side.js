@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-
+import "./side.css";
 function Side() {
   return (
     <div className="nav">
