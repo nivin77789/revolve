@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import Sales from "./sales";
-
+import "./main.css";
 function Main() {
   return (
     <div className="main">

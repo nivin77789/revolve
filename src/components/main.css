@@ -1,0 +1,124 @@
+.print-button p {
+  font-size: 12px;
+}
+.imp-button p {
+  font-size: 12px;
+}
+
+.imp-button {
+  cursor: pointer;
+  color: #727272;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(114, 114, 114, 0.516);
+  height: 30px;
+  width: 80px;
+}
+.print-button {
+  cursor: pointer;
+  color: #727272;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(114, 114, 114, 0.516);
+  height: 30px;
+  width: 80px;
+}
+.main h1 {
+  font-size: 15px;
+  font-weight: 730;
+  padding-left: 15px;
+  color: #312e4dd4;
+}
+.bot {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  height: 270px;
+  margin: 10px;
+}
+.bot-left {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.bot-center {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bot-right {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.mide {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  height: 270px;
+  margin: 10px;
+}
+.mid-left {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.mid-center {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mid-right {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.sale-top {
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sale-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.sale-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.insight {
+  height: 270px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+}
+.tope {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin: 10px;
+}
+
+.main {
+  flex: 5px;
+}
