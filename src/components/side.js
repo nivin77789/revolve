@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 import "./side.css";
 function Side() {
+  const [txt, setTxt] = useState("Dark Mode");
+  const [mod, setMod] = useState("nightlight");
+
+  function LoginOnClick() {
+    setTxt("Light Mode");
+    setMod("light_mode");
+  }
   return (
     <div className="nav">
       <button className="dash bord">
@@ -40,9 +47,9 @@ function Side() {
         <span class="material-symbols-outlined">credit_card</span>
         <h1>Payment</h1>
       </button>
-      <button className="dash dark">
-        <span class="material-symbols-outlined">nightlight</span>
-        <h1>Dark mode</h1>
+      <button className="dash dark" onClick={LoginOnClick}>
+        <span class="material-symbols-outlined">{mod}</span>
+        <h1>{txt}</h1>
       </button>
       <button className="dash set">
         <span class="material-symbols-outlined">settings</span>

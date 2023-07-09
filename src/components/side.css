@@ -58,14 +58,7 @@
   height: 40px;
   width: 190px;
 }
-.dark:focus {
-  margin-top: 40px;
-  border-radius: 8px;
-  background-color: #5d5fef;
-  color: #fafbfc;
-  height: 40px;
-  width: 190px;
-}
+
 .pay:focus {
   margin-top: 40px;
   border-radius: 8px;
