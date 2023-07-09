@@ -135,7 +135,10 @@
   height: 40px;
   width: 190px;
   color: #5d5fef;
-  font-size: 8px;
+}
+.sign h1 {
+  font-size: 16px;
+  font-weight: 500;
 }
 .sign:active {
   margin-top: 50px;
