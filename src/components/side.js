@@ -4,10 +4,18 @@ import "./side.css";
 function Side() {
   const [txt, setTxt] = useState("Dark Mode");
   const [mod, setMod] = useState("nightlight");
+  const [isButtonOn, setButtonOn] = useState(false);
 
   function LoginOnClick() {
-    setTxt("Light Mode");
-    setMod("light_mode");
+    if (isButtonOn) {
+      setTxt("Dark Mode");
+      setMod("nightlight");
+    } else {
+      setTxt("Light Mode");
+      setMod("light_mode");
+    }
+
+    setButtonOn(!isButtonOn);
   }
   return (
     <div className="nav">
