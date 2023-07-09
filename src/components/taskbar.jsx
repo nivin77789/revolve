@@ -43,7 +43,7 @@ function Taskbar() {
             data-imagecss="flag ae"
             data-title="United Arab Emirates"
           >
-            United Arab Emirates
+            United Arab Emirate
           </option>
           <option
             value="af"
