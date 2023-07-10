@@ -1,7 +1,22 @@
-.logo {
+.menu-icon {
+  font-size: 34px;
+  color: #5d5fef;
+}
+.menu {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #a7a7a71c;
+  border-radius: 7px;
+  height: 45px;
+  width: 45px;
+  margin-left: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
   padding-right: 28px;
 }
 .logo-img {
@@ -121,5 +136,5 @@ input {
   align-items: center;
   justify-content: space-around;
   display: grid;
-  grid-template-columns: 1.07fr 1.5fr 1.5fr 1fr 1fr;
+  grid-template-columns: 0.2fr 1.07fr 1.5fr 1.5fr 1fr 1fr;
 }

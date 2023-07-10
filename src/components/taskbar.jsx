@@ -4,6 +4,9 @@ import "./taskbar.css";
 function Taskbar() {
   return (
     <div className="taskbar">
+      <div className="menu">
+        <span class="material-symbols-outlined menu-icon">menu</span>
+      </div>
       <div className="logo">
         <img
           className="logo-img"
