@@ -6,12 +6,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #a7a7a71c;
-  border-radius: 7px;
   height: 45px;
   width: 45px;
   margin-left: 10px;
+  cursor: pointer;
 }
+.menu:hover {
+  background-color: #a7a7a71c;
+  border-radius: 7px;
+}
+.menu:active {
+  background-color: #a7a7a741;
+  border: 1px solid #ffff;
+  border-radius: 7px;
+}
+
 .logo {
   display: flex;
   align-items: center;
