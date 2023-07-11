@@ -2,6 +2,7 @@ import "./App.css";
 import Main from "./components/main";
 import Side from "./components/side";
 import Taskbar from "./components/taskbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -9,7 +10,11 @@ function App() {
       <Taskbar />
       <div className="sub">
         <Side />
-        <Main />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Main />}></Route>
+          </Routes>
+        </BrowserRouter>
       </div>
     </div>
   );
