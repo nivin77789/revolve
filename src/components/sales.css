@@ -65,6 +65,7 @@
 .box {
   display: inline;
   margin-left: 10px;
+  height: 115px;
 }
 .round1 {
   height: 35px;
