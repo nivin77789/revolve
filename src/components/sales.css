@@ -10,9 +10,8 @@
 }
 .box4 {
   padding: 10px;
-  width: 160px;
-  height: 114px;
   border-radius: 15px;
+  margin-right: 10px;
   background-color: #f3e8ff;
 }
 
@@ -28,8 +27,6 @@
 }
 .box3 {
   padding: 10px;
-  width: 160px;
-  height: 114px;
   border-radius: 15px;
   background-color: #dcfce7;
 }
@@ -46,8 +43,6 @@
 }
 .box2 {
   padding: 10px;
-  width: 160px;
-  height: 114px;
   border-radius: 15px;
   background-color: #fff4de;
 }
@@ -67,7 +62,10 @@
   padding-top: 5px;
   color: #4079ed;
 }
-
+.box {
+  display: inline;
+  margin-left: 10px;
+}
 .round1 {
   height: 35px;
   width: 35px;
@@ -80,15 +78,13 @@
 }
 .box1 {
   padding: 10px;
-  width: 160px;
-  height: 114px;
   border-radius: 15px;
   background-color: #ffe2e5;
 }
 .sale-d-bot {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
   line-height: 0%;
 }
 .sale-d-top {
