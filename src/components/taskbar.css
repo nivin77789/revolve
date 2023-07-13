@@ -132,5 +132,5 @@ input {
   align-items: center;
   justify-content: space-around;
   display: grid;
-  grid-template-columns: 1.07fr 1.5fr 1.5fr 1fr 1fr;
+  grid-template-columns: 0.01fr 1.07fr 1.5fr 1.5fr 1fr 1fr;
 }
