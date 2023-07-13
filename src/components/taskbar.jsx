@@ -4,7 +4,7 @@ import "./taskbar.css";
 function Taskbar() {
   return (
     <div className="taskbar">
-      <div></div>
+      <div className="nothing"></div>
       <div className="logo">
         <img
           className="logo-img"

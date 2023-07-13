@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 65px;
   padding-right: 28px;
 }
 .logo-img {
@@ -133,4 +132,8 @@ input {
   justify-content: space-around;
   display: grid;
   grid-template-columns: 0.01fr 1.07fr 1.5fr 1.5fr 1fr 1fr;
+}
+.nothing {
+  width: 60px;
+  height: 50px;
 }
