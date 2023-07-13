@@ -16,7 +16,7 @@ function Side() {
     setActive(!isActive);
     if (isActive) {
       setWidth("60px");
-      setMargin("0px 0px 0px 70px");
+      setMargin("0px 0px 0px 75px");
     } else {
       setWidth("260px");
       setMargin("0px 0px 0px 0px");
@@ -41,80 +41,80 @@ function Side() {
 
   return (
     <div className="nav" style={{ backgroundColor, color, width }}>
-      <div className="menu-icon" onClick={minimize} style={{ backgroundColor }}>
-        <span class="material-symbols-outlined menu-icon">menu</span>
-      </div>
-      <button className="dash bord" style={{ backgroundColor }}>
+      <button
+        className="menu-icon"
+        onClick={minimize}
+        style={{ backgroundColor }}
+      >
+        <span class="material-symbols-outlined menu-logo">menu</span>
+      </button>
+      <button className="dash bord">
         <span class="material-symbols-outlined" style={{ margin }}>
           dashboard
         </span>
         {isActive ? <h1>Dashboard</h1> : null}
       </button>
-      <button className="dash lead" style={{ backgroundColor }}>
+      <button className="dash lead">
         <span class="material-symbols-outlined" style={{ margin }}>
           leaderboard
         </span>
         {isActive ? <h1>Leaderboard</h1> : null}
       </button>
-      <button className="dash fore" style={{ backgroundColor }}>
+      <button className="dash fore">
         <span class="material-symbols-outlined" style={{ margin }}>
           storm
         </span>
         {isActive ? <h1>Forecast</h1> : null}
       </button>
-      <button className="dash top" style={{ backgroundColor }}>
+      <button className="dash top">
         <span class="material-symbols-outlined" style={{ margin }}>
           local_mall
         </span>
         {isActive ? <h1>Top products</h1> : null}
       </button>
-      <button className="dash sales" style={{ backgroundColor }}>
+      <button className="dash sales">
         <span class="material-symbols-outlined" style={{ margin }}>
           finance
         </span>
         {isActive ? <h1>Sales Report</h1> : null}
       </button>
-      <button className="dash invent" style={{ backgroundColor }}>
+      <button className="dash invent">
         <span class="material-symbols-outlined" style={{ margin }}>
           inventory
         </span>
         {isActive ? <h1>Inventory</h1> : null}
       </button>
-      <button className="dash order" style={{ backgroundColor }}>
+      <button className="dash order">
         <span class="material-symbols-outlined" style={{ margin }}>
           shopping_cart
         </span>
         {isActive ? <h1>Orders</h1> : null}
       </button>
-      <button className="dash cust" style={{ backgroundColor }}>
+      <button className="dash cust">
         <span class="material-symbols-outlined" style={{ margin }}>
           lab_profile
         </span>
         {isActive ? <h1>Customer Report</h1> : null}
       </button>
-      <button className="dash pay" style={{ backgroundColor }}>
+      <button className="dash pay">
         <span class="material-symbols-outlined" style={{ margin }}>
           credit_card
         </span>
         {isActive ? <h1>Payment</h1> : null}
       </button>
-      <button
-        className="dash dark"
-        style={{ backgroundColor }}
-        onClick={LoginOnClick}
-      >
+      <button className="dash dark" onClick={LoginOnClick}>
         <span class="material-symbols-outlined" style={{ margin }}>
           {mod}
         </span>
         {isActive ? <h1>{txt}</h1> : null}
       </button>
-      <button className="dash set" style={{ backgroundColor }}>
+      <button className="dash set">
         <span class="material-symbols-outlined" style={{ margin }}>
           settings
         </span>
         {isActive ? <h1>settings</h1> : null}
       </button>
-      <button className="sign" style={{ backgroundColor }}>
+      <button className="sign">
         <span class="material-symbols-outlined" style={{ margin }}>
           logout
         </span>
