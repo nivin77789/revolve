@@ -41,15 +41,9 @@ function Side() {
 
   return (
     <div className="nav" style={{ backgroundColor, color, width }}>
-      <button
-        className="dash menu-icon"
-        onClick={minimize}
-        style={{ backgroundColor }}
-      >
-        <span class="material-symbols-outlined menu-icon" style={{ margin }}>
-          menu
-        </span>
-      </button>
+      <div className="menu-icon" onClick={minimize} style={{ backgroundColor }}>
+        <span class="material-symbols-outlined menu-icon">menu</span>
+      </div>
       <button className="dash bord" style={{ backgroundColor }}>
         <span class="material-symbols-outlined" style={{ margin }}>
           dashboard
