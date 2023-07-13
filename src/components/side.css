@@ -44,7 +44,6 @@
 
 .set:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -52,7 +51,6 @@
 }
 .sales:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -61,7 +59,6 @@
 
 .pay:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -69,7 +66,6 @@
 }
 .order:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -77,7 +73,6 @@
 }
 .cust:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -85,7 +80,6 @@
 }
 .invent:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -93,7 +87,6 @@
 }
 .top:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -101,7 +94,6 @@
 }
 .fore:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -109,7 +101,6 @@
 }
 .bord:focus {
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -118,7 +109,6 @@
 .lead:focus {
   border: 2px solid #5d5fef;
   border: 2px solid #5d5fef;
-  margin-top: 40px;
   border-radius: 8px;
   color: #5d5fef;
   height: 40px;
@@ -157,9 +147,15 @@
   font-size: medium;
   font-weight: 400;
 }
+.menu-icon {
+  font-size: 34px;
+  color: #5d5fef;
+  padding-bottom: 10px;
+}
 
 .nav {
   display: grid;
+  align-items: center;
   justify-content: space-around;
   line-height: 3px;
   padding-top: 20px;
