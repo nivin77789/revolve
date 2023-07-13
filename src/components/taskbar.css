@@ -38,8 +38,9 @@
   align-items: center;
 }
 .title h1 {
-  font-size: 35px;
+  font-size: 2rem;
   font-weight: 500;
+  display: block;
 }
 .title span {
   font-size: 35px;
