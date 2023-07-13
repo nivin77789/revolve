@@ -32,8 +32,8 @@
   font-weight: 600;
 }
 .title {
-  padding-left: 40px;
   height: 60px;
+  width: 200px;
   display: flex;
   align-items: center;
 }
@@ -132,7 +132,7 @@ input {
   align-items: center;
   justify-content: space-around;
   display: grid;
-  grid-template-columns: 0.01fr 1.07fr 1.5fr 1.5fr 1fr 1fr;
+  grid-template-columns: 0.01fr 1fr 1.5fr 1.5fr 1fr 1fr;
 }
 .nothing {
   width: 60px;
