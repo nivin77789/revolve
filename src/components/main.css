@@ -122,3 +122,63 @@
 .main {
   flex: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+  .tope {
+    display: block;
+    margin: 10px;
+  }
+  .sale-top {
+    height: 50px;
+    display: none;
+  }
+  .mide {
+    display: block;
+    margin: 10px;
+  }
+  .mid-left {
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  }
+  .mid-center {
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .mid-right {
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  }
+  .bot {
+    display: block;
+    margin: 10px;
+  }
+
+  .bot-left {
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  }
+  .bot-center {
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .bot-right {
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 20px 2px rgb(236, 236, 236);
+  }
+}

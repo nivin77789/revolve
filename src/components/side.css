@@ -177,3 +177,14 @@
   padding-top: 20px;
   height: 850px;
 }
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 3px;
+    padding-top: 20px;
+    height: 850px;
+  }
+}
