@@ -11,7 +11,7 @@ function Main() {
             <div className="sale-left">
               <h1>Dashboard overview</h1>
               <div className="print-button">
-                <span class="material-symbols-outlined">print</span>{" "}
+                <span className="material-symbols-outlined">print</span>{" "}
                 <p>Print</p>
               </div>
             </div>
@@ -19,7 +19,7 @@ function Main() {
               <h1>Add your Data</h1>
               <p>(.csv file)</p>
               <div className="imp-button">
-                <span class="material-symbols-outlined">download</span>
+                <span className="material-symbols-outlined">download</span>
 
                 <p>Import</p>
               </div>

@@ -124,6 +124,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .main {
+    flex: 5px;
+    margin-top: 68px;
+  }
   .tope {
     display: block;
     margin: 10px;

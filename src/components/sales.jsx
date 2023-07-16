@@ -11,14 +11,14 @@ function Sales() {
           <p>Sales Summery</p>
         </div>
         <div className="exp-button">
-          <span class="material-symbols-outlined">upload</span>
+          <span className="material-symbols-outlined">upload</span>
           <p>Export</p>
         </div>
       </div>
       <div className="sale-d-bot">
         <div className="box box1">
           <div className="round1">
-            <span class="material-symbols-outlined">lab_profile</span>
+            <span className="material-symbols-outlined">lab_profile</span>
           </div>
           <h4>$1k</h4>
           <h2>Total Sales</h2>
@@ -26,7 +26,7 @@ function Sales() {
         </div>
         <div className="box box2">
           <div className="round2">
-            <span class="material-symbols-outlined">feed</span>
+            <span className="material-symbols-outlined">feed</span>
           </div>
           <h4>$1k</h4>
           <h2>Total Sales</h2>
@@ -34,7 +34,7 @@ function Sales() {
         </div>
         <div className="box box3">
           <div className="round3">
-            <span class="material-symbols-outlined">inventory_2</span>
+            <span className="material-symbols-outlined">inventory_2</span>
           </div>
           <h4>$1k</h4>
           <h2>Total Sales</h2>
@@ -42,7 +42,7 @@ function Sales() {
         </div>
         <div className="box box4">
           <div className="round4">
-            <span class="material-symbols-outlined">person_add</span>
+            <span className="material-symbols-outlined">person_add</span>
           </div>
           <h4>$1k</h4>
           <h2>Total Sales</h2>

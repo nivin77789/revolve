@@ -22,7 +22,7 @@ function Taskbar() {
       </div>
       <div className="search">
         <div className="input">
-          <span class="material-symbols-outlined">search</span>
+          <span className="material-symbols-outlined">search</span>
           <input placeholder="Search here..." className="inp"></input>
         </div>
       </div>
@@ -98,12 +98,12 @@ function Taskbar() {
           </option>
         </select>
         <div className="noti">
-          <span class="material-symbols-outlined">notifications</span>
+          <span className="material-symbols-outlined">notifications</span>
         </div>
       </div>
       <div className="profile">
-        <div class="material">
-          <span class="material-symbols-outlined">person</span>
+        <div className="material">
+          <span className="material-symbols-outlined">person</span>
         </div>
         <div className="usn">
           <h3>Username</h3>
