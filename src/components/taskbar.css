@@ -154,15 +154,14 @@ input {
   }
 
   .logo {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-right: 28px;
   }
   .logo-img {
-    display: none;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     padding-right: 20px;
   }
   .usn h3 {
@@ -174,7 +173,6 @@ input {
     font-weight: 300;
   }
   .logo h1 {
-    display: none;
     font-size: 27px;
     font-weight: 600;
   }
@@ -255,12 +253,15 @@ input {
     border-radius: 18px;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   input {
     outline: none;
   }
   .inp {
+    display: none;
     margin-left: 10px;
     border-radius: 15px;
     border: none;
