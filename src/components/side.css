@@ -189,4 +189,25 @@
     padding-top: 20px;
     height: 90vh;
   }
+  .menu-icon {
+    background-color: rgba(240, 248, 255, 0);
+    position: fixed;
+    top: 10px;
+    color: #5d5fef;
+    padding-left: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  .menu-logo {
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 40px;
+  }
+  .menu-logo:hover {
+    background-color: rgba(128, 128, 128, 0.09);
+    border-radius: 5px;
+  }
+  .menu-logo:active {
+    background-color: rgba(84, 84, 84, 0.136);
+    border-radius: 5px;
+  }
 }
