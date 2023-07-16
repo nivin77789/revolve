@@ -181,7 +181,6 @@
 
 @media only screen and (max-width: 600px) {
   .nav {
-    visibility: visible;
     position: absolute;
     display: grid;
     align-items: center;

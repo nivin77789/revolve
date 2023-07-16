@@ -11,7 +11,7 @@ function Side() {
   const [width, setWidth] = useState("260px");
   const [isActive, setActive] = useState(true);
   const [margin, setMargin] = useState("0px 0px 0px 0px");
-  const [display, setDisplay] = useState("grid");
+  const [display, setDisplay] = useState("none");
 
   function minimize() {
     setActive(!isActive);
