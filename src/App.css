@@ -3,6 +3,8 @@ body {
 }
 .App {
   background-color: #fafbfc;
+  position: fixed;
+  width: 100vw;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
