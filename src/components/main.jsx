@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Sales from "./sales";
 import "./main.css";
+import Insights from "./insights";
 function Main() {
   return (
     <div className="main">
@@ -27,9 +28,7 @@ function Main() {
           </div>
           <Sales />
         </div>
-        <div className="insight">
-          <h1>Customer Insights</h1>
-        </div>
+        <Insights />
       </div>
       <div className="mide">
         <div className="mid-left">

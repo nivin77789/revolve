@@ -23,7 +23,7 @@ function Taskbar() {
       <div className="search">
         <div className="input">
           <span className="material-symbols-outlined">search</span>
-          <input placeholder="Search here..." className="inp"></input>
+          <input id="dsc" placeholder="Search here..." className="inp"></input>
         </div>
       </div>
       <div className="lang">
