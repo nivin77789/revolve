@@ -188,6 +188,7 @@
     line-height: 3px;
     padding-top: 20px;
     height: 90vh;
+    z-index: 100;
   }
   .menu-icon {
     background-color: rgba(240, 248, 255, 0);
