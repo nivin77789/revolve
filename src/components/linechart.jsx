@@ -1,7 +1,7 @@
 import { ResponsiveLine } from "@nivo/line";
 const data = [
   {
-    id: "japan",
+    id: "Unique Customers",
     color: "hsl(340, 70%, 50%)",
     data: [
       {
@@ -55,7 +55,7 @@ const data = [
     ],
   },
   {
-    id: "france",
+    id: "New Customers",
     color: "hsl(176, 70%, 50%)",
     data: [
       {
@@ -109,62 +109,8 @@ const data = [
     ],
   },
   {
-    id: "us",
-    color: "hsl(326, 70%, 50%)",
-    data: [
-      {
-        x: "jan",
-        y: 98,
-      },
-      {
-        x: "feb",
-        y: 269,
-      },
-      {
-        x: "mar",
-        y: 295,
-      },
-      {
-        x: "apr",
-        y: 112,
-      },
-      {
-        x: "may",
-        y: 119,
-      },
-      {
-        x: "jun",
-        y: 55,
-      },
-      {
-        x: "jul",
-        y: 68,
-      },
-      {
-        x: "aug",
-        y: 217,
-      },
-      {
-        x: "sep",
-        y: 212,
-      },
-      {
-        x: "oct",
-        y: 245,
-      },
-      {
-        x: "nov",
-        y: 55,
-      },
-      {
-        x: "dec",
-        y: 74,
-      },
-    ],
-  },
-  {
-    id: "germany",
-    color: "hsl(186, 70%, 50%)",
+    id: "Loyal Customers",
+    color: "hsl(266, 70%, 50%)",
     data: [
       {
         x: "jan",
@@ -216,66 +162,12 @@ const data = [
       },
     ],
   },
-  {
-    id: "norway",
-    color: "hsl(14, 70%, 50%)",
-    data: [
-      {
-        x: "jan",
-        y: 166,
-      },
-      {
-        x: "feb",
-        y: 16,
-      },
-      {
-        x: "mar",
-        y: 177,
-      },
-      {
-        x: "apr",
-        y: 141,
-      },
-      {
-        x: "may",
-        y: 253,
-      },
-      {
-        x: "jun",
-        y: 180,
-      },
-      {
-        x: "jul",
-        y: 66,
-      },
-      {
-        x: "aug",
-        y: 123,
-      },
-      {
-        x: "sep",
-        y: 74,
-      },
-      {
-        x: "oct",
-        y: 124,
-      },
-      {
-        x: "nov",
-        y: 139,
-      },
-      {
-        x: "dec",
-        y: 112,
-      },
-    ],
-  },
 ];
 const Linechart = () => {
   return (
     <ResponsiveLine
       data={data}
-      margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+      margin={{ top: 5, right: 40, bottom: 90, left: 60 }}
       xScale={{ type: "point" }}
       yScale={{
         type: "linear",
@@ -292,7 +184,7 @@ const Linechart = () => {
         tickSize: 5,
         tickPadding: 5,
         tickRotation: 0,
-        legend: "transportation",
+        legend: "",
         legendOffset: 36,
         legendPosition: "middle",
       }}
@@ -306,7 +198,7 @@ const Linechart = () => {
       }}
       enableGridX={false}
       colors={{ scheme: "set1" }}
-      lineWidth={3}
+      lineWidth={2}
       enablePoints={false}
       pointSize={10}
       pointColor="#000000"
@@ -317,19 +209,18 @@ const Linechart = () => {
       useMesh={true}
       legends={[
         {
-          anchor: "bottom-right",
+          anchor: "bottom-left",
           direction: "row",
           justify: false,
-          translateX: 75,
-          translateY: 46,
-          itemsSpacing: 0,
-          itemDirection: "left-to-right",
-          itemWidth: 76,
-          itemHeight: 19,
-          itemOpacity: 0.75,
-          symbolSize: 9,
+          translateX: -35,
+          translateY: 50,
+          itemWidth: 82,
+          itemHeight: 20,
+          itemsSpacing: 25,
+          symbolSize: 10,
           symbolShape: "circle",
-          symbolBorderColor: "rgba(0, 0, 0, .5)",
+          itemDirection: "left-to-right",
+          itemTextColor: "#777",
           effects: [
             {
               on: "hover",
