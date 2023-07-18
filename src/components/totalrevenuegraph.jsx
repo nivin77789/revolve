@@ -2,52 +2,52 @@ import { ResponsiveBar } from "@nivo/bar";
 
 const data = [
   {
-    country: "AD",
+    country: "Mon",
     "hot dog": 51,
     "hot dogColor": "hsl(310, 70%, 50%)",
     burger: 91,
     burgerColor: "hsl(265, 70%, 50%)",
   },
   {
-    country: "AE",
+    country: "Tue",
     "hot dog": 199,
     "hot dogColor": "hsl(239, 70%, 50%)",
     burger: 193,
     burgerColor: "hsl(213, 70%, 50%)",
   },
   {
-    country: "AF",
+    country: "Wed",
     "hot dog": 43,
     "hot dogColor": "hsl(317, 70%, 50%)",
     burger: 120,
     burgerColor: "hsl(26, 70%, 50%)",
   },
   {
-    country: "AG",
+    country: "Thu",
     "hot dog": 167,
     "hot dogColor": "hsl(128, 70%, 50%)",
     burger: 92,
     burgerColor: "hsl(331, 70%, 50%)",
   },
   {
-    country: "AI",
+    country: "Fri",
     "hot dog": 192,
     "hot dogColor": "hsl(49, 70%, 50%)",
     burger: 176,
     burgerColor: "hsl(118, 70%, 50%)",
   },
   {
-    country: "AL",
+    country: "Sat",
     "hot dog": 61,
     "hot dogColor": "hsl(274, 70%, 50%)",
     burger: 68,
     burgerColor: "hsl(94, 70%, 50%)",
   },
   {
-    country: "AM",
+    country: "Sun",
     "hot dog": 161,
     "hot dogColor": "hsl(329, 70%, 50%)",
-    burger: 1,
+    burger: 14,
     burgerColor: "hsl(133, 70%, 50%)",
   },
 ];
@@ -58,7 +58,8 @@ const Totalrevenuegraph = () => {
       keys={["hot dog", "burger"]}
       indexBy="country"
       margin={{ top: 5, right: 40, bottom: 90, left: 60 }}
-      padding={0.3}
+      padding={0.7}
+      innerPadding={4}
       groupMode="grouped"
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
@@ -119,6 +120,7 @@ const Totalrevenuegraph = () => {
         legendPosition: "middle",
         legendOffset: -40,
       }}
+      enableLabel={false}
       labelSkipWidth={14}
       labelSkipHeight={12}
       labelTextColor={{
@@ -137,6 +139,7 @@ const Totalrevenuegraph = () => {
           itemWidth: 100,
           itemHeight: 20,
           itemDirection: "left-to-right",
+          symbolShape: "circle",
           itemOpacity: 0.85,
           symbolSize: 13,
           effects: [

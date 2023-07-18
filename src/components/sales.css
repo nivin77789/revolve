@@ -11,7 +11,7 @@
 .box4 {
   padding: 10px;
   border-radius: 15px;
-  margin-right: 10px;
+  margin-right: 5px;
   background-color: #f3e8ff;
 }
 
@@ -47,24 +47,23 @@
   background-color: #fff4de;
 }
 .box h4 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bolder;
   color: #151d48;
 }
 .box h2 {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 500;
   color: #425166;
 }
 .box h3 {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
-  padding-top: 5px;
   color: #4079ed;
 }
 .box {
   display: inline;
-  margin-left: 10px;
+  margin-left: 5px;
   height: 115px;
 }
 .round1 {
@@ -120,11 +119,30 @@
   border-radius: 10px;
   padding-top: 5px;
   margin-top: 10px;
-  margin-right: 10px;
+  margin-right: 6px;
   height: 210px;
 }
 .nav {
   width: 280px;
   background-color: #ffff;
   height: 845px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box h4 {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #151d48;
+  }
+  .box h2 {
+    font-size: 9.5px;
+    font-weight: 500;
+    color: #425166;
+  }
+  .box h3 {
+    font-size: 6px;
+    font-weight: 500;
+    padding-top: 5px;
+    color: #4079ed;
+  }
 }
