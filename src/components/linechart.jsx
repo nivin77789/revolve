@@ -209,7 +209,7 @@ const Linechart = () => {
       useMesh={true}
       legends={[
         {
-          anchor: "bottom-left",
+          anchor: "bottom",
           direction: "row",
           justify: false,
           translateX: -35,
