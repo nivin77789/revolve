@@ -3,6 +3,7 @@ import "../App.css";
 import Sales from "./sales";
 import "./main.css";
 import Insights from "./insights";
+import Totalrevenuegraph from "./totalrevenuegraph";
 function Main() {
   return (
     <div className="main">
@@ -33,6 +34,7 @@ function Main() {
       <div className="mide">
         <div className="mid-left">
           <h1>Total Revenue</h1>
+          <Totalrevenuegraph />
         </div>
         <div className="mid-center">
           <h1>Time Analysis</h1>
