@@ -4,6 +4,7 @@ import Sales from "./sales";
 import "./main.css";
 import Insights from "./insights";
 import Totalrevenuegraph from "./totalrevenuegraph";
+import Targetgraph from "./targetgraph";
 function Main() {
   return (
     <div className="main">
@@ -41,6 +42,7 @@ function Main() {
         </div>
         <div className="mid-right">
           <h1>Target vs Reality</h1>
+          <Targetgraph />
         </div>
       </div>
       <div className="bot">
