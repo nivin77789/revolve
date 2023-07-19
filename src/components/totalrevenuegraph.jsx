@@ -60,6 +60,7 @@ const Totalrevenuegraph = () => {
       margin={{ top: 5, right: 40, bottom: 90, left: 60 }}
       padding={0.7}
       innerPadding={4}
+      maxValue={214}
       groupMode="grouped"
       valueScale={{ type: "linear" }}
       indexScale={{ type: "band", round: true }}
