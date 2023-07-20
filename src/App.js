@@ -12,7 +12,7 @@ function App() {
         <Side />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Main />}></Route>
+            <Route path="/hi" element={<Main />}></Route>
           </Routes>
         </BrowserRouter>
       </div>
