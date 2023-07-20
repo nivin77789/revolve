@@ -34,7 +34,7 @@ function Main() {
       </div>
       <div className="mide">
         <div className="mid-left">
-          <h1>Total Revenue</h1>
+          <h1>Total Revenues</h1>
           <Totalrevenuegraph />
         </div>
         <div className="mid-center">
