@@ -250,7 +250,7 @@ input {
   .input {
     background-color: rgba(243, 243, 243, 0.79);
     height: 40px;
-    border-radius: 18px;
+    border-radius: 19px;
     display: flex;
     align-items: center;
     justify-content: center;
