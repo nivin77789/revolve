@@ -10,11 +10,6 @@ function App() {
       <Taskbar />
       <div className="sub">
         <Side />
-        <BrowserRouter>
-          <Routes>
-            <Route path="/hi" element={<Main />}></Route>
-          </Routes>
-        </BrowserRouter>
       </div>
     </div>
   );
